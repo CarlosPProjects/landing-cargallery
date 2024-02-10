@@ -19,8 +19,10 @@ module.exports = {
       colors: {
         primary: "hsl(var(--primary))",
         secondary: "(var(--secondary))",
-        body: "(var(--body))",
-        accent: "(var(--accent))", 
+        background: {
+          DEFAULT: "hsl(var(--background))",
+          foreground: "hsl(var(--background-foreground))",
+        } 
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
