@@ -1,7 +1,12 @@
+import SliderController from "@/components/SliderController";
+
 export default function Home() {
   return (
-    <div className="">
-      <p className="text-primary">Hello World</p>
-    </div>
+    <>
+      <div className="flex-1">
+
+      </div>
+      <SliderController />
+    </>
   );
 }

@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={cn("font-sans antialiased", fontSans.variable)}>
         <main className="container min-h-screen flex flex-col gap-4">
           <Header />
-          <section className="flex-1 border">
+          <section className="flex-1 flex flex-col py-4">
             {children}
           </section>
         </main>
