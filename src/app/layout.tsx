@@ -18,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("font-sans antialiased", inter.className)}>
-        <main className="container min-h-screen flex flex-col gap-4">
+        <main className="p-0 md:px-8 container min-h-screen flex flex-col gap-4">
           <Header />
-          <section className="flex-1 flex flex-col py-4">
+          <section className="flex-1 flex flex-col py-4 md:items-stretch">
             {children}
           </section>
         </main>

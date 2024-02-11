@@ -11,8 +11,7 @@ export function Model(props) {
   });
 
   return (
-    <PerspectiveCamera position={[1, -0.5, 1.5]} fov={75} rotation={[0.3, 0, 0]}>
-      <group ref={ref} {...props} dispose={null}>
+      <group ref={ref} {...props} dispose={null} position={[0, -0.5, 0]}>
         <primitive object={nodes.GLTF_created_0_rootJoint} />
         <mesh
           geometry={nodes.Object_4.geometry}
@@ -114,7 +113,6 @@ export function Model(props) {
           skeleton={nodes.Object_32.skeleton}
         />
       </group>
-    </PerspectiveCamera>
   );
 }
 
