@@ -1,8 +1,11 @@
 import React from 'react'
+import Car from './Car'
 
 const CarSlide = () => {
   return (
-    <div>CarSlide</div>
+    <div>
+      Hello
+    </div>
   )
 }
 
